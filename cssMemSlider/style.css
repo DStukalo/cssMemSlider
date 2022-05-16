@@ -73,6 +73,8 @@ body {
     border-radius: 0.5rem;
     color: #d6882f;
     padding: 0.3rem;
+    transform: scale(0.5);
+    transition: all ease-in-out 1.5s;
 }
 
 .nav {
@@ -116,6 +118,7 @@ body {
 #slide5:checked ~ .anotattion .desq > .text-slide5 {
     opacity: 1;
     z-index: 1;
+    transform: scale(1);
 }
 
 .label,
