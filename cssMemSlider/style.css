@@ -150,3 +150,46 @@ body {
 #slide5:not(:checked) ~ .anotattion.nav label:nth-of-type(5) {
     background: #32a4a8;
 }
+
+@media screen and (max-width: 999.98px) {
+    body {
+        overflow: visible;
+    }
+
+    .anotattion {
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+
+    .nav {
+        order: 1;
+        margin: 0 auto;
+        margin-top: -3rem;
+    }
+    .desq {
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 799.98px) {
+    .wrapper {
+        height: 30rem;
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width: 599.98px) {
+    .wrapper {
+        height: 25rem;
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 459.98px) {
+    .wrapper {
+        height: 18rem;
+        width: 18rem;
+    }
+}
